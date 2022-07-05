@@ -93,6 +93,34 @@ header img:hover {
     font-size: 30px;
 }
 
+button {
+    width: 200px;
+    background-color: #63DABD;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #E6E6E6;
+    border: none;
+    transition: transform 1s linear;
+}
+
+
+
+.transition {
+    transition: padding 0.3s linear, background-color 1s linear, font-size 1s linear;
+}
+
+
+button:hover {
+    font-size: 40px;
+    padding: 20px;
+    background-color: black;
+    /* transform: translateX(100px); */
+    transform: skew(30deg);
+    /* transform: rotateX(30deg); */
+}
+
+
 footer {
     text-align: center;
     padding: 60px;
